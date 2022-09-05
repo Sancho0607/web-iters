@@ -5,28 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practicando</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Raleway:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css"
-    />
+    <script
+      src="https://kit.fontawesome.com/a28818f619.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -46,14 +47,6 @@
     <!-- hola como andan -->
     <!-- se ve un poco diferentes las letras en su pagina -->
 
-    <section class="fix">
-      <ul>
-        <li><i class="fi fi-brands-facebook"></i></li>
-        <li><i class="fi fi-brands-instagram"></i></li>
-        <li><i class="fi fi-brands-whatsapp"></i></li>
-        <li><i class="fi fi-rr-envelope"></i></li>
-      </ul>
-    </section>
     <!-- banner -->
 
     <section class="sec1">
@@ -66,7 +59,7 @@
     <section>
       <div class="contenedor">
         <div class="carta">
-          <i id="cel" class="fi fi-br-call-history"></i>
+          <i id="cel" class="fa-sharp fa-solid fa-phone"></i>
           <h5>Comunicate con un asesor</h5>
           <p class="p-cartas">
             Comunicate o dejanos tus datos y uno de nuestros asesores se pondra
@@ -75,7 +68,7 @@
           <button class="btn-carta">VER MAS</button>
         </div>
         <div class="carta">
-          <i id="dolar" class="fi fi-rr-dollar"></i>
+          <i id="dolar" class="fa-sharp fa-solid fa-dollar-sign"></i>
           <h5>Comunicate con un asesor</h5>
           <p class="p-cartas">
             Comunicate o dejanos tus datos y uno de nuestros asesores se pondra
@@ -84,13 +77,77 @@
           <button class="btn-carta">VER MAS</button>
         </div>
         <div class="carta">
-          <i id="tel" class="fi fi-rs-home"></i>
+          <i id="tel" class="fa-sharp fa-solid fa-house-chimney"></i>
           <h5>Comunicate con un asesor</h5>
           <p class="p-cartas">
             Comunicate o dejanos tus datos y uno de nuestros asesores se pondra
             en contacto contigo.
           </p>
           <button class="btn-carta">VER MAS</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUESTROS SERVICIOS -->
+    <section>
+      <div class="contenedor-card">
+        <div class="derecha">
+          <h3>nuestros servicios</h3>
+          <span class="separador"></span>
+          <div class="separador-icon-span">
+            <div class="icon-i">
+              <i id="casa" class="fa-sharp fa-solid fa-house-chimney"></i>
+            </div>
+            <div class="casa-margin">
+              <span>Construccion</span>
+              <p>
+                Ejecución y construcción de toda clase de edificios, proyectos
+                de construcción, edificaciones, obras de urbanismo y prestación
+                de servicios en las ramas de la ingeniería y/o arquitectura.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <div class="separador-icon-span">
+              <div class="icon-i">
+                <i id="billete" class="fa-regular fa-money-bill-1"></i>
+              </div>
+              <div class="casa-margin">
+                <span>Compra y venta de predios</span>
+                <p>
+                  Promoción compra y venta de inmuebles, predios urbanos y
+                  rurales de cualquier clase y destinación propios y ajenos;
+                  loteos, desenglobes, venta de predios, construcción de obras
+                  civiles, diseños de obras civiles, planeación, construcción,
+                  desarrollo y ejecución de obras, trabajos de urbanismo y
+                  construcción en predios públicos y privados, producción,
+                  compra y venta de materiales de construcción, obras civiles,
+                  hidráulicas, sanitarias, obras de urbanismo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="separador-icon-span">
+              <div class="icon-i">
+                <i id="galery" class="fa-sharp fa-solid fa-photo-film"></i>
+              </div>
+              <div class="casa-margin">
+                <span>Diseño</span>
+                <p>
+                  Prestación de servicios profesionales y/o tecnológicos
+                  especializados en desarrollo urbano, diseño arquitectónico,
+                  estudio y levantamiento topográfico, planeación y gestión
+                  publica.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="izq">
+          <img src="/img/CONSTRUCTORA.png" alt="foto" />
+          <button>Solicita una cotizacion</button>
         </div>
       </div>
     </section>

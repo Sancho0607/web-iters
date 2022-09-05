@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Raleway:wght@300;400&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +9,7 @@
 }
 
 body {
-  background-color: #f3f3f3;
+  background-color: #fff;
 }
 
 .logo {
@@ -19,7 +21,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 110px;
-  margin: 10px 200px;
+  background-color: #f3f3f3;
 }
 
 nav ul {
@@ -51,21 +53,6 @@ li:hover {
   -moz-transform: scale(1.2);
 }
 
-/* fixed */
-
-.fix {
-  left: 0;
-  margin-top: 220px;
-  flex-direction: column;
-  z-index: 2000;
-  position: fixed;
-  font-size: 40px;
-}
-
-.fi fi-brands-facebook {
-  color: rgb(36, 36, 212);
-}
-
 /* Nuestro Proyectos */
 
 .sec1 {
@@ -77,7 +64,7 @@ li:hover {
   background-size: cover;
   background-color: rgb(90, 90, 90);
   background-blend-mode: soft-light;
-  height: 86vh;
+  height: 89vh;
   flex-direction: column;
 }
 
@@ -117,6 +104,8 @@ li:hover {
 .contenedor {
   display: flex;
   margin-top: 100px;
+  background-color: #fff;
+  padding: 0 75px;
 }
 
 .carta {
@@ -192,4 +181,112 @@ h5 {
   background-color: #f3f3f3;
   color: #2a3c67;
   transition: all, 0.8s;
+}
+
+/* CARTAS */
+
+.contenedor-card {
+  display: flex;
+  margin-top: 150px;
+  background-color: #f5f5f5;
+  margin-bottom: 50px;
+}
+
+/* DERECHA */
+
+.derecha {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.separador-icon-span {
+  display: flex;
+}
+
+.derecha h3 {
+  color: #2a3c67;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 32px;
+  font-family: "Raleway", sans-serif;
+}
+
+.separador {
+  width: 50px;
+  border-top: 1px solid #2a3c67;
+  margin-top: 10px;
+}
+
+.icon-i {
+  font-size: 30px;
+  color: #2a3c67;
+}
+
+.fa-sharp fa-solid fa-house-chimney {
+  border: 1px solid #2a3c67;
+}
+
+#casa {
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 25px;
+}
+
+#billete {
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 25px;
+}
+
+#galery {
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 25px;
+}
+
+.casa-margin {
+  margin-left: 50px;
+}
+
+.derecha span {
+  color: #2a3c67;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.derecha p {
+  font-size: 20px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+/* izquierda */
+
+.izq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.izq button {
+  font-size: 23px;
+  background-color: #2a3c67;
+  color: #f3f3f3;
+  padding: 18px 30px;
+  border-radius: 20px;
+}
+
+.izq button:hover {
+  background-color: #f3f3f3;
+  color: #2a3c67;
+  cursor: pointer;
+  transition: all, 0.8s;
+  box-shadow: 5px 4px 44px -10px rgba(0, 0, 0, 0.78);
+  -webkit-box-shadow: 5px 4px 44px -10px rgba(0, 0, 0, 0.78);
+  -moz-box-shadow: 5px 4px 44px -10px rgba(0, 0, 0, 0.78);
 }
