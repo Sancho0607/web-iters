@@ -290,3 +290,26 @@ h5 {
   -webkit-box-shadow: 5px 4px 44px -10px rgba(0, 0, 0, 0.78);
   -moz-box-shadow: 5px 4px 44px -10px rgba(0, 0, 0, 0.78);
 }
+
+/* GALERIA */
+
+.contenedor-galeria {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.titulo-galeria {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 35px;
+  color: #2a3c67;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+
+.fotos-galeria {
+  width: 300px;
+  height: 250px;
+  border-radius: 6px;
+}
