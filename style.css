@@ -75,6 +75,7 @@ li:hover {
   font-family: "Cinzel", serif;
   flex-wrap: wrap;
   text-shadow: #000 2px 2px;
+  text-align: center;
 }
 
 .btn-sec1 {
@@ -462,9 +463,9 @@ h5 {
   }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1025px) and (max-width: 1749px) {
   .titulo {
-    font-size: 59px;
+    font-size: 100px;
     text-align: center;
   }
 
@@ -484,7 +485,7 @@ h5 {
 
   .contenedor-card {
     margin: auto;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
   }
 
   .derecha {
@@ -520,7 +521,7 @@ h5 {
   }
 
   .contenido-footer {
-    /* flex-direction: column; */
+    flex-direction: column;
   }
 
   .carta-footer {
@@ -560,8 +561,7 @@ h5 {
 
   .derecha {
     width: 80%;
-    margin-left: 5%;
-    margin-top: 5%;
+    margin: auto;
   }
 
   .izq {
