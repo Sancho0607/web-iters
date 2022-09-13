@@ -214,6 +214,7 @@ h5 {
   font-weight: 600;
   font-size: 32px;
   font-family: "Raleway", sans-serif;
+  text-align: center;
 }
 
 .separador {
@@ -382,4 +383,225 @@ h5 {
   text-align: center;
   padding: 30px;
   font-size: 20px;
+}
+
+/* MEDIA QUERIES 768 */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    margin-right: 10%;
+  }
+
+  nav ul {
+    margin-right: 0;
+  }
+
+  nav ul li {
+    padding: 10px 5px;
+  }
+
+  .titulo {
+    font-size: 70px;
+    text-align: center;
+  }
+
+  .contenedor {
+    margin-top: auto;
+    flex-wrap: wrap;
+  }
+
+  .carta {
+    height: auto;
+    padding: 50px;
+  }
+
+  .contenedor-card {
+    margin: auto;
+    flex-wrap: wrap;
+  }
+
+  .derecha {
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  .izq {
+    margin: auto;
+  }
+
+  .izq img {
+    height: 600px;
+  }
+
+  .titulo-galeria {
+    margin: 50px 0;
+  }
+
+  .contenedor-galeria {
+    flex-wrap: wrap;
+  }
+
+  .contenedor-footer {
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+
+  .foto-footer {
+    width: 400px;
+    height: 300px;
+  }
+
+  .contenido-footer {
+    flex-direction: column;
+  }
+
+  .carta-footer {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1440px) {
+  .titulo {
+    font-size: 59px;
+    text-align: center;
+  }
+
+  .contenedor {
+    margin-top: auto;
+    /* flex-wrap: wrap; */
+  }
+
+  .carta {
+    height: auto;
+    padding: 50px;
+  }
+
+  .carta h5 {
+    font-size: 26px;
+  }
+
+  .contenedor-card {
+    margin: auto;
+    /* flex-wrap: wrap; */
+  }
+
+  .derecha {
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  .izq {
+    margin: auto;
+  }
+
+  .izq img {
+    height: 600px;
+  }
+
+  .titulo-galeria {
+    margin: 50px 0;
+  }
+
+  .contenedor-galeria {
+    flex-wrap: wrap;
+  }
+
+  .contenedor-footer {
+    /* flex-wrap: wrap; */
+    /* padding: 50px; */
+  }
+
+  .foto-footer {
+    width: 400px;
+    height: 300px;
+  }
+
+  .contenido-footer {
+    /* flex-direction: column; */
+  }
+
+  .carta-footer {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .titulo {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .btn-sec1 {
+    width: 350px;
+  }
+
+  .contenedor {
+    margin-top: auto;
+    flex-wrap: wrap;
+  }
+
+  .carta {
+    height: auto;
+    padding: 50px;
+  }
+
+  .carta h5 {
+    font-size: 24px;
+  }
+
+  .contenedor-card {
+    margin: auto;
+    flex-wrap: wrap;
+  }
+
+  .derecha {
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  .izq {
+    margin: auto;
+  }
+
+  .izq img {
+    height: 350px;
+  }
+
+  .titulo-galeria {
+    margin: 50px 0;
+  }
+
+  .contenedor-galeria {
+    flex-wrap: wrap;
+  }
+
+  .contenedor-footer {
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .foto-footer {
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+  }
+
+  .contenido-footer {
+    flex-direction: column;
+  }
+
+  .carta-footer {
+    margin: auto;
+    height: auto;
+    padding: 20px;
+  }
+
+  .carta-footer h4 {
+    padding: 0;
+  }
 }
