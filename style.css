@@ -31,8 +31,8 @@ nav ul {
 }
 
 nav ul li {
+  padding: 20px;
   margin-right: 20px;
-  padding: 15px 20px;
   font-size: 18px;
   font-weight: bold;
   background-color: #fff;
